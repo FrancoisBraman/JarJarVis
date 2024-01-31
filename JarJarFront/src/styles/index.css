@@ -1,5 +1,13 @@
-
-
 body {
   height: 100vh;
+}
+
+@font-face {
+  font-family: 'Bitwise';
+  src: url(../assets/fonts/bitwise.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'perfect_dos_vga_437regular';
+  src: url(../assets/fonts/perfect_dos_vga_437/PerfectDOSWin.ttf) format('truetype');
 }
