@@ -1,6 +1,14 @@
-body {
-  color: green;
+body{
   background-color: black;
   font-family: 'perfect_dos_vga_437regular', 'Bitwise', sans-serif;
-  font-weight: 100;
+}
+
+.homepage_container{
+  font-size: 1.2rem;
+  color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
