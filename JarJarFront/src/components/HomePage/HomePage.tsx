@@ -1,10 +1,12 @@
 // import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './styles.css';
+import Header from './Header/Header';
 
 const HomePage = () => {
   return (
     <div className='homepage_container'>
+      <Header />
       <Typewriter
         onInit={(typewriter) => {
           typewriter
@@ -24,6 +26,7 @@ const HomePage = () => {
             .start();
         }}
       />
+      
     </div>
   
   )
