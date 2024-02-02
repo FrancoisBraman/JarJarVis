@@ -1,0 +1,9 @@
+.main{
+  font-size: 1.2rem;
+  color: green;
+  text-shadow: 0 0 0.5em greenyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

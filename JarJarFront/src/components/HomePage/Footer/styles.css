@@ -1,0 +1,5 @@
+.footer_text{
+  display: flex;
+  color: green;
+  justify-content: center;
+}

@@ -1,35 +1,19 @@
-// import React from 'react';
-import Typewriter from 'typewriter-effect';
 import './styles.css';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import Main from './Main/Main';
 
 const HomePage = () => {
   return (
-    <div className='homepage_container'>
-      <Header />
-      <Typewriter
-        onInit={(typewriter) => {
-          typewriter
-            .changeDelay(50)
-            .typeString('Hello, World! My name is JarJarVis, Mr Braman personal assistant.')
-            .pauseFor(500)
-            .typeString('<br/> Mr Braman is too busy these days and forgot to put his resume on this page')
-            .pauseFor(500)
-            .typeString('<br/> But you\'re lucky, I know everything about his school and professional career!')
-            .pauseFor(500)
-            .typeString('<br/> I can even tell you about his hobbies and soft skills!')
-            .pauseFor(500)
-            .typeString('<br/> Feel free to ask your questions in the form below, I\'ll do my best to answer them!')
-            .callFunction(() => {
-              console.log('String typed out!');
-            })
-            .start();
-        }}
-      />
-      
+    <div className='homepage'>
+      <div className='homepage_container'>
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+
     </div>
-  
-  )
+  );
 };
 
 export default HomePage;
