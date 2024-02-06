@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  font-family: 'Bitwise', sans-serif;
+  gap: 1rem;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form_input {
+  width: 100%;
+  background-color: black;
+  color: green;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0.2em greenyellow;
+}
+
+.form_button {
+  background-color: black;
+  color: green;
+  border: 1px solid green;
+  border-radius: 4px;
+  box-shadow: 0 0 0.2em greenyellow;
+  cursor: pointer;
+} 
+
+.form_answer {
+  border: 1px solid green;
+  border-radius: 4px;
+  box-shadow: 0 0 0.2em greenyellow;
+  height: 10vh;
+  width: 50vw;
+}

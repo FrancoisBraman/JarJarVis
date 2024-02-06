@@ -1,5 +1,10 @@
 body {
   height: 100vh;
+  font-family: 'perfect_dos_vga_437regular', 'Bitwise', sans-serif;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @font-face {

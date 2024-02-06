@@ -6,24 +6,22 @@
   background-clip: text;
   -webkit-background-clip: text; 
   color: transparent;
-  width: 100%;
+  text-shadow:none;
+  width: 98vw;
   height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
+  font-family: 'Bitwise', 'PerfectDos', monospace;
 }
 
 .header_title {
-  font-family: 'Courier New', Courier, monospace;
   font-size: 3rem;
-  font-weight: bolder;
+  padding-left: 1rem;
 }
 
 .header_subtitle {
-  font-family: 'Courier New', Courier, monospace;
+  padding-right: 1rem;
   font-size: 1rem;
-  font-weight: bolder;
-
 }

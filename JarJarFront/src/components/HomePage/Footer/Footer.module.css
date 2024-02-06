@@ -1,0 +1,8 @@
+.footer_text{
+  display: flex;
+  color: white;
+  text-shadow: 0 0 0.4em greenyellow;
+  justify-content: center;
+  font-family: 'Bitwise', 'PerfectDos', monospace;
+  font-size: 0.7rem;
+}

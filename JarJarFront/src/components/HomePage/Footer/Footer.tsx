@@ -1,9 +1,14 @@
-import './styles.css';
+import styles from'./Footer.module.css';
 
-const Footer = () => {
+interface FormProps {
+  className?: string;
+  hiddenClass?: string;
+}
+
+const Footer: React.FC<FormProps> = ({className, hiddenClass}) => {
   return (
-    <footer className="footer">
-      <p className="footer_text">copyright François Braman</p>
+    <footer className={` ${styles.footer} ${className} ${hiddenClass} `}>
+      <p className={styles.footer_text}>copyright François Braman</p>
     </footer>
   );
 }

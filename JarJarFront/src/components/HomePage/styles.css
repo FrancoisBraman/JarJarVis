@@ -1,12 +1,8 @@
-:root {
-  font-family: 'perfect_dos_vga_437regular', 'Bitwise', sans-serif;
-  background-color: black;
-}
-
-.homepage {
+.homepage__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
 }
 
 
